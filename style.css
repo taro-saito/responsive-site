@@ -1,0 +1,57 @@
+.box{
+  background-image: url("https://vfs.cloud9.us-east-2.amazonaws.com/vfs/19e3b90d65fc4adb815c24b4b044c177/preview/test/images/spring.png?1523711633561");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.box1 {
+  width: 100%;
+  margin: 0px;
+  text-align:center;
+}
+.container {
+  max-width: 100%;
+  margin: 30px;
+  padding: 0px;
+  
+  
+}
+.box2 {
+  float: left;
+  width: 31.333%;
+  height: 150px;
+  margin: 1%;
+  margin-top: 10px;
+  box-sizing: border-box;
+  text-align:center;
+  background-color: #ccc;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+footer{
+  background-color: #dfdfdf;
+  
+}
+.box1 button{
+  border-radius: 3px;
+  background-color: #fd9999;
+}
+
+
+@media (max-width: 768px) {
+    
+.box {
+  height: 250px;
+}
+
+.box2 {
+  width: 100%;
+}
+}
+
