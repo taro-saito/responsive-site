@@ -1,5 +1,5 @@
 .box{
-  background-image: url("https://vfs.cloud9.us-east-2.amazonaws.com/vfs/19e3b90d65fc4adb815c24b4b044c177/preview/test/images/spring.png?1523711633561");
+  background-image: url(./images/spring.png);
   height: 500px;
   width: 100%;
   background-size: cover;
